@@ -2,14 +2,6 @@ import { Component, inject, output, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { InsestmentService } from '../insestment-service';
 
-interface data_Type{
-  initialInvestment:number;
-  duration:number;
-  expectedReturn:number;
-  annualInvestment:number;
-
-}
-
 @Component({
   selector: 'app-user-input',
   imports: [FormsModule],
